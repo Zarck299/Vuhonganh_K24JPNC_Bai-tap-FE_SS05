@@ -1,0 +1,34 @@
+h2 {
+    border-bottom: 2px dashed grey;
+}
+.postsecond {
+    display: flex;
+}
+.left,
+.right {
+    flex: 1;
+}
+.right {
+    border-left: 2px solid grey;
+    padding-left: 20px;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+}
+
+.post img {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.date {
+    color: grey;
+}
+
+.title {
+    color:  #0d0042;
+    font-size: x-large;
+}
